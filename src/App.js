@@ -155,7 +155,7 @@ class App extends React.Component {
               if (this.state.user.id !== ''){
                 // localhost
                 // fetch('http://localhost:3001/image', {
-                fetch('https://cryptic-refuge-59796.herokuapp.com:3001/image', {
+                fetch('https://cryptic-refuge-59796.herokuapp.com/image', {
                   method: 'put',
                   headers: {'Content-Type': 'application/json'},
                   body: JSON.stringify({
@@ -173,7 +173,7 @@ class App extends React.Component {
                   // if no user logged in --> 'Guest'
                   // local host 
                   // fetch('http://localhost:3001/image', {
-                  fetch('https://cryptic-refuge-59796.herokuapp.com:3001/image', {
+                  fetch('https://cryptic-refuge-59796.herokuapp.com/image', {
                     method: 'put',
                     headers: {'Content-Type': 'application/json'},
                     

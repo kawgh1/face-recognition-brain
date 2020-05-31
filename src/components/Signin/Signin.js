@@ -38,7 +38,7 @@ class Signin extends React.Component {
 		// fetch does a GET request, but we want a POST here
 		// local host 
 		// fetch('http://localhost:3001/signin', {
-		fetch('https://cryptic-refuge-59796.herokuapp.com//signin', {
+		fetch('https://cryptic-refuge-59796.herokuapp.com/signin', {
 			method: 'post', 
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
