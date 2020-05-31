@@ -1,5 +1,12 @@
 import React from 'react';
 
+
+///////////////////////////////////////////
+// LOCAL HOST FUNCTIONS ARE IN APP.JS,
+// SIGNIN.JS AND REGISER.JS
+///////////////////////////////////////////
+
+
 class Register extends React.Component {
   constructor(props) {
     super(props);
@@ -23,7 +30,8 @@ class Register extends React.Component {
   }
 
   onSubmitRegister = () => {
-    fetch('http://localhost:3001/register', {
+    // fetch('http://localhost:3001/register', {
+    fetch('https://cryptic-refuge-59796.herokuapp.com/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({

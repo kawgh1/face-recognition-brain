@@ -3,6 +3,15 @@ import React from 'react';
 // const Signin = ({ onRouteChange }) => {
 // we want this to be a 'smart' component that can handle state to determine
 // if user sign in is valid
+
+
+///////////////////////////////////////////
+// LOCAL HOST FUNCTIONS ARE IN APP.JS,
+// SIGNIN.JS AND REGISER.JS
+///////////////////////////////////////////
+
+
+
 class Signin extends React.Component {
 
 	constructor(props) {
@@ -27,7 +36,9 @@ class Signin extends React.Component {
 		// this displays email and password in console
 		//console.log(this.state);
 		// fetch does a GET request, but we want a POST here
-		fetch('http://localhost:3001/signin', {
+		// local host 
+		// fetch('http://localhost:3001/signin', {
+		fetch('https://cryptic-refuge-59796.herokuapp.com//signin', {
 			method: 'post', 
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({

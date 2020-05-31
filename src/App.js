@@ -19,6 +19,14 @@ import Particles from 'react-particles-js';
 //   apiKey: '8e15ce38c47448ae986da3ecefedce3c'
 // });
 
+///////////////////////////////////////////
+// LOCAL HOST FUNCTIONS ARE IN APP.JS,
+// SIGNIN.JS AND REGISER.JS
+///////////////////////////////////////////
+
+
+
+
 const particlesOptions = {
  particles: { 
               number: {
@@ -130,7 +138,9 @@ class App extends React.Component {
     this.setState({imageURL: this.state.input});
     // app.models.predict(Clarifai.FACE_DETECT_MODEL, 
     //   this.state.input)
-        fetch('http://localhost:3001/imageurl', {
+       // localhost
+       // fetch('http://localhost:3001/imageurl', {
+        fetch('https://cryptic-refuge-59796.herokuapp.com/imageurl', {
               method: 'post',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({
@@ -143,8 +153,9 @@ class App extends React.Component {
             if (response) {
               // if user logged in
               if (this.state.user.id !== ''){
-
-                fetch('http://localhost:3001/image', {
+                // localhost
+                // fetch('http://localhost:3001/image', {
+                fetch('https://cryptic-refuge-59796.herokuapp.com:3001/image', {
                   method: 'put',
                   headers: {'Content-Type': 'application/json'},
                   body: JSON.stringify({
@@ -160,7 +171,9 @@ class App extends React.Component {
 
                 } else {
                   // if no user logged in --> 'Guest'
-                  fetch('http://localhost:3001/image', {
+                  // local host 
+                  // fetch('http://localhost:3001/image', {
+                  fetch('https://cryptic-refuge-59796.herokuapp.com:3001/image', {
                     method: 'put',
                     headers: {'Content-Type': 'application/json'},
                     
