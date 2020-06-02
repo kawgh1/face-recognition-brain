@@ -204,23 +204,23 @@ class App extends React.Component {
                       this.displayFaceBox(this.calculateFaceLocation(response))
                   }
                   // .catch(error => console.log(error));
-  })
+      })
 
         .catch(error => console.log(error));
-    // same as  
-    //  .then(
-    //   function(response) {
-    //     // do something with response
-    //     //console.log(response.outputs[0].data.regions[0].region_info.bounding_box);
-    //     this.calculateFaceLocation(response);
-    //   },
-    //   function(err) {
-    //     // there was an error
-    //     console.log(err);
-    //   }
-    // );      
+        // same as  
+        //  .then(
+        //   function(response) {
+        //     // do something with response
+        //     //console.log(response.outputs[0].data.regions[0].region_info.bounding_box);
+        //     this.calculateFaceLocation(response);
+        //   },
+        //   function(err) {
+        //     // there was an error
+        //     console.log(err);
+        //   }
+        // );      
+    }
   }
-}
   // we need our route to reflect what the user clicked
   onRouteChange = (route) => {
     if (route === 'signout') {
