@@ -146,7 +146,7 @@ class App extends React.Component {
   // otherwise it exposes our API key to the client
   onButtonSubmit = () => {
     // always display an image
-    if(this.imageURL){
+    if(this.imageURL !== ''){
         //console.log('click');
         // grab image url from user, assign to imageURL variable and pass
         // to clarifai API
