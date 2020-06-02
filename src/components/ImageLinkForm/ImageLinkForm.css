@@ -1,6 +1,6 @@
 .form {
 	width: 350px;
-	background-color: rgba(184,109,255,.35);
+/*	background-color: rgba(184,109,255,.35);
 background-image: linear-gradient(rgba(184,109,255,.3) 5px, transparent 2px),
 linear-gradient(90deg, rgba(184,109,255,.3) 3px, transparent 2px),
 linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
@@ -8,14 +8,14 @@ linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
 background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
 background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 /*#D5CCFF*/
-background:
+/*background:
 radial-gradient(circle farthest-side at 100% 61%, #D5CCFF 40%,rgba(240,166,170,0) 0)20px 15px,
 radial-gradient(circle farthest-side at 0% 5%,#D5CCFF 3%,rgba(240,166,17,0) 0) -1px 6px,
 linear-gradient(#D5CCFF 3%,rgba(240,166,170,0) 0, #D5CCFF 99%, #D5CCFF 0)0 0,
 linear-gradient(150deg,#fb1 24%,#D5CCFF 0,#D5CCFF 26%,rgba(240,166,170,0.5) 0,rgba(240,166,170,0) 74%,#D5CCFF 0,#D5CCFF 76%,#fb1 0)0 0,
 linear-gradient(30deg,#D5CCFF 24%,#B71 0,#D5CCFF 26%,rgba(240,166,170,0.5) 0,rgba(240,166,170,0) 74%,#D5CCFF 0,#D5CCFF 76%,#fb1 0)0 0,
 linear-gradient(90deg,#D5CCFF 2%,#fb1 0,#D5CCFF 98%,#D5CCFF 0%)0 0 #D5CCFF;
-background-size: 40px 60px;
+background-size: 40px 60px;*/
 
 /*background:
 radial-gradient(circle farthest-side at 0% 50%, #fb1 25%,rgba(240,166,17,0) 0)21px 30px,

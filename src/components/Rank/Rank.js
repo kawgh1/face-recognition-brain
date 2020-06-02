@@ -4,7 +4,7 @@ import React from 'react';
 const Rank = ({name, entries}) => {
 	if (name){
 				return (
-					<div>
+					<div className='ma5'>
 						<div className='white ma1 f2'>
 							{`Hi ${name}!`}
 						</div> 
@@ -19,9 +19,9 @@ const Rank = ({name, entries}) => {
 	} else {
 
 				return (
-					<div>
+					<div className='ma5'>
 						<div className='white ma1 f2'>
-							{'Hi Friend! Your current score is...'}
+							{'Hi Friend! Your current score is'}
 						</div>
 						<div className='white ma1 f1'>
 							{'0'}
