@@ -145,7 +145,7 @@ class App extends React.Component {
   // this was redone to have the API call done from the server and not the client
   // otherwise it exposes our API key to the client
   onButtonSubmit = () => {
-    this.setState({box: {}});
+    this.setState({box});
     // always display an image
     if(this.imageURL !== ''){
         //console.log('click');
